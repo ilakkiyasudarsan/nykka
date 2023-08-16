@@ -1,0 +1,12 @@
+package com.TestNG.amazon_test;
+
+import org.testng.annotations.Test;
+
+public class Test_Runner {
+	@Test
+	public void get()
+	{
+		System.out.println("hei");
+	}
+
+}

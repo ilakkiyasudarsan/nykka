@@ -1,0 +1,48 @@
+package com.stepdefinition;
+
+
+import com.base.Base_class;
+import com.pom.Login_page1;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.When;
+
+public class Step_defination extends Base_class{
+	
+	
+	public Login_page1 lp = new Login_page1(driver);
+
+	@Given("User Must Launch The {string} Url")
+	public void user_must_launch_the_url(String string) {
+	   launchUrl(string);
+	    
+	}
+	@When("user must Click The Shop Men")
+	public void user_must_click_the_shop_men() {
+	   
+		lp.getshopmen().click();
+	   
+	}
+
+
+@Given("user Launch The url {string} Url")
+	public void user_launch_the_url_url(String string) throws InterruptedException {
+	Thread.sleep(3000);
+	lp.getFootwear().click();
+		   
+    
+}
+//	@Given("user click the shop men")
+//	public void user_click_the_shop_men() {
+//		lp.getVoguish().click();
+//	    
+//	}
+//	@When("the shopmen page open it")
+//	public void the_shopmen_page_open_it() {
+//		lp.getColor().click();
+	    
+	}
+
+
+
+

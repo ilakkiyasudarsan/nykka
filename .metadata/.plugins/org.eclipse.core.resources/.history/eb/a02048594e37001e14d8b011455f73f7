@@ -1,0 +1,66 @@
+package com.pom;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class Login_page1 {
+	public WebDriver driver;
+	@FindBy(xpath = "//span[text()='SHOP MEN']")
+	private WebElement shopmen;
+
+	public WebElement getshopmen() {
+	return shopmen;
+	}
+	@FindBy(xpath="//div[.='footwear']")
+	private WebElement footwear;
+	
+
+	public WebElement getFootwear() {
+		return footwear;
+	}
+	@FindBy(xpath="//img[@alt='Voguish Oxford Shoes ']")
+	private WebElement voguish;
+	
+	
+	public WebElement getVoguish() {
+		return voguish;
+	}
+	@FindBy(xpath="//img[@id='17709388']")
+	private WebElement color;
+	
+	public WebElement getColor() {
+		return color;
+	}
+	@FindBy(xpath="//span[@id='size_27207673']")
+	private WebElement size;
+	
+
+
+	public WebElement getSize() {
+		return size;
+	}
+
+
+	public void setSize(WebElement size) {
+		this.size = size;
+	}
+
+
+	public void setColor(WebElement color) {
+		this.color = color;
+	}
+
+
+	public void setVoguish(WebElement voguish) {
+		this.voguish = voguish;
+	}
+
+
+	public Login_page1(WebDriver driver2) {
+        this.driver=driver2;
+        PageFactory.initElements(driver, this);
+	}
+	}
+

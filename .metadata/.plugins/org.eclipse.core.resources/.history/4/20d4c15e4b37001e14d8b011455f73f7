@@ -1,0 +1,24 @@
+package com.pom;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class Login_page1 {
+	public WebDriver driver;
+	@FindBy(xpath = "//span[text()='SHOP MEN']")
+	private WebElement shopmen;
+	
+	public Login_page1(WebDriver driver2) {
+          this.driver=driver2;
+          PageFactory.initElements(driver, this);
+	}
+
+	public WebElement getshopmen() {
+	return shopmen;
+	}
+		
+	}
+
+//div[.='footwear']

@@ -1,0 +1,16 @@
+@regression @someke
+Feature: Lime Road
+
+Background:
+Given user Launch The url "https://www.limeroad.com/" Url
+
+@TCI001
+Scenario: Shope Men
+Given user click the shop men 
+When the shopmen page open it
+
+@TCI002
+Scenario: footwear 
+Given user must be click footwear
+When the footwear is open it
+And user clicks on  footwear kriti

@@ -1,0 +1,17 @@
+package seleniumavadi;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class lime {
+public static void main(String[] args) throws InterruptedException {
+	System.setProperty("webdriver.chrome.driver","D:\\Selenium\\seleniumavadi\\driver\\chromedriver.exe");
+	WebDriver driver=new ChromeDriver();
+	driver.get("https://www.limeroad.com/");
+	driver.manage().window().maximize();
+	Thread.sleep(2000);
+	driver.findElement(By.xpath("\"//span[text()='SHOP MEN']\"")).click();
+	driver.findElement(By.xpath("\"//div[@class='loaderCat vipshoesLdr dIb mA pA r0   h80 b4 l0 t0 ']\"")).click();
+}
+}

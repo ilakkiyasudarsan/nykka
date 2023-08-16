@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-14T06:07:21Z" name="Suite" finished-at="2023-08-14T06:07:51Z" duration-ms="29367">
+    <groups>
+    </groups>
+    <test started-at="2023-08-14T06:07:21Z" name="Test" finished-at="2023-08-14T06:07:51Z" duration-ms="29367">
+      <class name="com.TestNG.amazon_test.Test_Runner">
+        <test-method signature="testcase_001()[pri:0, instance:com.TestNG.amazon_test.Test_Runner@b4711e2]" started-at="2023-08-14T11:37:21Z" name="testcase_001" finished-at="2023-08-14T11:37:39Z" duration-ms="17721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_001 -->
+        <test-method signature="testcase_002()[pri:0, instance:com.TestNG.amazon_test.Test_Runner@b4711e2]" started-at="2023-08-14T11:37:39Z" name="testcase_002" finished-at="2023-08-14T11:37:46Z" duration-ms="7230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_002 -->
+        <test-method signature="testcase_003()[pri:0, instance:com.TestNG.amazon_test.Test_Runner@b4711e2]" started-at="2023-08-14T11:37:46Z" name="testcase_003" finished-at="2023-08-14T11:37:50Z" duration-ms="3640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_003 -->
+        <test-method signature="testcase_004()[pri:0, instance:com.TestNG.amazon_test.Test_Runner@b4711e2]" started-at="2023-08-14T11:37:50Z" name="testcase_004" finished-at="2023-08-14T11:37:51Z" duration-ms="712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_004 -->
+      </class> <!-- com.TestNG.amazon_test.Test_Runner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

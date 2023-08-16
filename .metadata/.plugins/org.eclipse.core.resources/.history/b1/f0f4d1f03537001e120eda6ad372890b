@@ -1,0 +1,29 @@
+package com.stepdefinition;
+
+
+import com.Base.Base_class;
+import com.pom.Login_page1;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.When;
+
+public class Step_defination extends Base_class{
+	
+	
+	public Login_page1 lp = new Login_page1(driver);
+
+	@Given("User Must Launch The {string} Url")
+	public void user_must_launch_the_url(String string) {
+	   launchUrl(string);
+	    
+	}
+	@When("user must Click The Shop Men")
+	public void user_must_click_the_shop_men() {
+	   
+		lp.getshopmen().click();
+	   
+	}
+
+
+
+}

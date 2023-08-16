@@ -1,0 +1,13 @@
+package com.pageobject;
+
+import javax.xml.stream.XMLReporter;
+
+public class page_object_model {
+	@Test
+	public void Testcase_001()
+	{
+		System.out.println("hai");
+		Reporter.Log("hello");
+	}
+
+}

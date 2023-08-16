@@ -1,0 +1,18 @@
+
+Feature: Lime Road
+
+Background:
+Given user Launch The url "https://www.limeroad.com/" Url
+
+
+Scenario: Shope Men
+Given user click the shop men 
+When the shopmen page open it
+
+Scenario: footwear 
+Given user must be click footwear
+When the footwear is open it
+And user clicks on  footwear kriti
+And user clicks footwear color it
+And user clicks on footwear size
+And user click on add to cart

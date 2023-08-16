@@ -1,0 +1,4 @@
+Feature: Lime Road
+Scenario: Shope Men
+Given User Must Launch The "https://www.limeroad.com/" Url
+When user must Click The Shop Men

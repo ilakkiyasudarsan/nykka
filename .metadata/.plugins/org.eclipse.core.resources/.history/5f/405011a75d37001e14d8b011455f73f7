@@ -1,0 +1,13 @@
+
+Feature: Lime Road
+Scenario: Shope Men
+Given user Launch The "https://www.limeroad.com/" Url
+Then user click the shop men and its navigate to home page
+
+Scenario: footwear 
+Given user must be click footwear
+When user select brand Voguish Oxford Shoes 
+And user clicks on  brown later laceup Oxfords
+And user clicks footwear color it
+And user clicks on footwear size
+And user click on add to cart

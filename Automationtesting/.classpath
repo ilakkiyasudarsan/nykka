@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="lib" path="mixie/selenium-server-4.8.3.jar"/>
+	<classpathentry kind="lib" path="mixie/batik-anim-1.14.jar"/>
+	<classpathentry kind="lib" path="mixie/batik-awt-util-1.14.jar"/>
+	<classpathentry kind="lib" path="mixie/batik-bridge-1.14.jar"/>
+	<classpathentry kind="lib" path="mixie/batik-codec-1.14.jar"/>
+	<classpathentry kind="lib" path="mixie/batik-constants-1.14.jar"/>
+	<classpathentry kind="lib" path="mixie/batik-css-1.14.jar"/>
+	<classpathentry kind="lib" path="mixie/batik-dom-1.14.jar"/>
+	<classpathentry kind="lib" path="mixie/batik-ext-1.14.jar"/>
+	<classpathentry kind="lib" path="mixie/batik-gvt-1.14.jar"/>
+	<classpathentry kind="lib" path="mixie/batik-i18n-1.14.jar"/>
+	<classpathentry kind="lib" path="mixie/batik-parser-1.14.jar"/>
+	<classpathentry kind="lib" path="mixie/batik-script-1.14.jar"/>
+	<classpathentry kind="lib" path="mixie/batik-shared-resources-1.14.jar"/>
+	<classpathentry kind="lib" path="mixie/batik-svg-dom-1.14.jar"/>
+	<classpathentry kind="lib" path="mixie/batik-svggen-1.14.jar"/>
+	<classpathentry kind="lib" path="mixie/batik-svgrasterizer-1.14.jar"/>
+	<classpathentry kind="lib" path="mixie/batik-transcoder-1.14.jar"/>
+	<classpathentry kind="lib" path="mixie/batik-util-1.14.jar"/>
+	<classpathentry kind="lib" path="mixie/batik-xml-1.14.jar"/>
+	<classpathentry kind="lib" path="mixie/bcpkix-jdk15on-1.70.jar"/>
+	<classpathentry kind="lib" path="mixie/bcprov-jdk15on-1.70.jar"/>
+	<classpathentry kind="lib" path="mixie/bcutil-jdk15on-1.70.jar"/>
+	<classpathentry kind="lib" path="mixie/commons-codec-1.15.jar"/>
+	<classpathentry kind="lib" path="mixie/commons-collections4-4.4.jar"/>
+	<classpathentry kind="lib" path="mixie/commons-compress-1.21.jar"/>
+	<classpathentry kind="lib" path="mixie/commons-io-2.11.0.jar"/>
+	<classpathentry kind="lib" path="mixie/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="mixie/commons-math3-3.6.1.jar"/>
+	<classpathentry kind="lib" path="mixie/curvesapi-1.07.jar"/>
+	<classpathentry kind="lib" path="mixie/fontbox-2.0.26.jar"/>
+	<classpathentry kind="lib" path="mixie/graphics2d-0.40.jar"/>
+	<classpathentry kind="lib" path="mixie/jakarta.activation-2.0.1.jar"/>
+	<classpathentry kind="lib" path="mixie/jakarta.xml.bind-api-3.0.1.jar"/>
+	<classpathentry kind="lib" path="mixie/log4j-api-2.18.0.jar"/>
+	<classpathentry kind="lib" path="mixie/pdfbox-2.0.26.jar"/>
+	<classpathentry kind="lib" path="mixie/poi-5.2.3.jar"/>
+	<classpathentry kind="lib" path="mixie/poi-examples-5.2.3.jar"/>
+	<classpathentry kind="lib" path="mixie/poi-excelant-5.2.3.jar"/>
+	<classpathentry kind="lib" path="mixie/poi-javadoc-5.2.3.jar"/>
+	<classpathentry kind="lib" path="mixie/poi-ooxml-5.2.3.jar"/>
+	<classpathentry kind="lib" path="mixie/poi-ooxml-full-5.2.3.jar"/>
+	<classpathentry kind="lib" path="mixie/poi-ooxml-lite-5.2.3.jar"/>
+	<classpathentry kind="lib" path="mixie/poi-scratchpad-5.2.3.jar"/>
+	<classpathentry kind="lib" path="mixie/slf4j-api-1.7.36.jar"/>
+	<classpathentry kind="lib" path="mixie/SparseBitSet-1.2.jar"/>
+	<classpathentry kind="lib" path="mixie/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="lib" path="mixie/xml-apis-ext-1.3.04.jar"/>
+	<classpathentry kind="lib" path="mixie/xmlbeans-5.1.1.jar"/>
+	<classpathentry kind="lib" path="mixie/xmlgraphics-commons-2.6.jar"/>
+	<classpathentry kind="lib" path="mixie/xmlsec-3.0.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

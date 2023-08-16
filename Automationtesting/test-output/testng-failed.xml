@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Test1(failed)">
+    <classes>
+      <class name="Advanceselenium.pgm118">
+        <methods>
+          <include name="Testcase_005"/>
+          <include name="Testcase_006"/>
+        </methods>
+      </class> <!-- Advanceselenium.pgm118 -->
+      <class name="Advanceselenium.pgm119">
+        <methods>
+          <include name="Testcase_008"/>
+        </methods>
+      </class> <!-- Advanceselenium.pgm119 -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,5 @@
+package com.pom;
+
+public @interface findBy {
+
+}
